@@ -1,0 +1,95 @@
+body{
+    background-color:#F0F2F5;
+}
+#main{
+    color: #1877F2;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 195px;
+    top: 155px;
+}
+p{
+    font-family: Helvetica;
+    font-size: 28px;
+    position: absolute;
+    left: 195px;
+    top: 245px;
+}
+.loginBox{
+    background-color: white;
+    position: relative;
+    left: 755px;
+    top: 105px;
+    width: 390px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #777777;
+}
+#ip1{
+    margin-left: 15px;
+    width: 320px;
+    padding: 15px;
+    font-size: 18px;
+}
+#ip1:focus{
+    outline-color: #1877F2;
+}
+#ip2{
+    margin-left: 15px;
+    width: 320px;
+    padding: 15px;
+    font-size: 18px;
+}
+#ip2:focus{
+    outline-color: #1877F2;
+    
+}
+#btnLogin{
+    position: absolute;
+    left: 15px;
+    right: 5px;
+    width: 355px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    background-color:#166FE5;
+}
+#p1{
+    position: absolute;
+    left: 130px;
+    top: 220px;
+    font-size: 15px;
+    color: blue;
+}
+#p1:hover{
+    text-decoration: underline;
+}
+hr{
+    color: rgb(255, 251, 251);
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#btnnewAcc{
+    font-size: 18px;
+    width: 220px;
+    height: 50px;
+    color: white;
+    background-color: #36A420;
+    position: absolute;
+    left: 90px;
+    right: 5px;
+    top: 300px;
+}
+#p2{
+    margin-top: 285px;
+    margin-left: 600px;
+    font-size: 15px;
+}
+b:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 310px;
+}
