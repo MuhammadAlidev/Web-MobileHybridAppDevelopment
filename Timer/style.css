@@ -1,0 +1,81 @@
+body{
+    background-color: lightgreen;
+    font-family: serif;
+}
+#main{
+    border: 2px double #FFA07A;
+    padding: 20px;
+    width: 350px;
+    background-color: #EEE8AA;
+}
+button{
+    font-size: 37px;
+    height: 40px;
+    margin: 1px;
+    display: inline;
+}
+#timer{
+    font-size: 45px;
+}
+h1{
+    font-size: 47px;
+    text-decoration: underline tomato;
+    text-align: center;
+}
+#increment, #btn{
+    padding-left: 8px;
+}
+
+
+@media screen and (max-width: 480px) {
+    #main{
+        border: 2px double #FFA07A;
+        padding: 10px;
+        width: 300px;
+        background-color: #EEE8AA;
+    }
+    button{
+        font-size: 30px;
+        height: 40px;
+        margin: 1px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 370px) {
+      #main{
+          border: 2px double #FFA07A;
+          padding: 5px;
+          width: 250px;
+          background-color: #EEE8AA;
+      }
+      button{
+          font-size: 20px;
+          height: 40px;
+          margin: 1px;
+          display: inline;
+      }
+}
+
+@media screen and (max-width: 300px) {
+    #main{
+          border: 2px double #FFA07A;
+          padding: 5px;
+          width: 200px;
+          background-color: #EEE8AA;
+      }
+    button{
+          font-size: 15px;
+          height: 40px;
+          margin: 1px;
+          display: inline;
+      }
+    #timer{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 37px;
+        text-decoration: underline tomato;
+        text-align: center;
+    }
+}

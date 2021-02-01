@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(to right, red , yellow);
+}
+#sh{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    color: white;
+}
+#main{
+    border: 2px solid #422057FF;
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    top: 37%;
+    left: 37%;
+}
+h1{
+    display: inline;
+    font-size: 45px;
+}
+#time{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #422057FF;
+}
+#btn{
+    padding-top: 25px;
+    padding-left: 7px;
+}
+button{
+    font-size: 37px;
+    height: 60px;
+}
+
+
+@media screen and (max-width: 700px) {
+    #sh{
+        position: absolute;
+        top: 22%;
+        left: 32%;
+    }
+    #main{
+        border: 2px solid #422057FF;
+        width: 350px;
+        height: 170px;
+        position: absolute;
+        top: 37%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #sh{
+        position: absolute;
+        top: 22%;
+        left: 25%;
+    }
+    #main{
+        border: 2px solid #422057FF;
+        width: 350px;
+        height: 170px;
+        position: absolute;
+        top: 37%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #sh{
+        position: absolute;
+        top: 25%;
+        left: 23%;
+    }
+    #main{
+        border: 2px solid #422057FF;
+        width: 280px;
+        height: 140px;
+        position: absolute;
+        top: 37%;
+        left: 10%;
+    }
+    h1{
+        display: inline;
+        font-size: 35px;
+    }
+    button{
+        font-size: 27px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #sh{
+        position: absolute;
+        top: 28%;
+        left: 24%;
+    }
+    #main{
+        border: 2px solid #422057FF;
+        width: 200px;
+        height: 120px;
+        position: absolute;
+        top: 37%;
+        left: 7%;
+    }
+    h1{
+        display: inline;
+        font-size: 25px;
+    }
+    button{
+        font-size: 17px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #sh{
+        position: absolute;
+        top: 30%;
+        left: 23%;
+    }
+    #main{
+        border: 2px solid #422057FF;
+        width: 165px;
+        height: 90px;
+        position: absolute;
+        top: 37%;
+        left: 7%;
+    }
+    h1{
+        display: inline;
+        font-size: 20px;
+    }
+    button{
+        margin-top: -15px;
+        font-size: 13px;
+        height: 32px;
+    }
+}
