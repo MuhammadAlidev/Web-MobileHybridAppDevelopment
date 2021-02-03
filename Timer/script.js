@@ -26,5 +26,4 @@ function reset(){
     pause.disabled = false;
     timerr = 0;
     timeR.innerHTML = timerr;
-    pause();
 }
