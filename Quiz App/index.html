@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Quiz App</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBstvnkKJSCIQJrkpfQfVuk7jbH02YP3OI",
+          authDomain: "quiz-app-e5533.firebaseapp.com",
+          databaseURL: "https://quiz-app-e5533-default-rtdb.firebaseio.com",
+          projectId: "quiz-app-e5533",
+          storageBucket: "quiz-app-e5533.appspot.com",
+          messagingSenderId: "1031708506987",
+          appId: "1:1031708506987:web:dcf95fde23d2172bd12a2e"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+
+<body onload="displayQuestion()">
+        <div id="top" style="background-color: aquamarine;" class="m-3 p-3 rounded">
+            <h3>Question: <span id="questionCompleted" class="fs-1">1</span>/<span id="totalQuestions"></span></h3>
+            <div id="timer" class="fs-1 "></div>
+        </div>
+        <div class="bg-white shadow rounded m-3 p-5">
+            <h3 id="question"></h3>
+        </div>
+        <div class="m-2 p-2 shadow d-flex">
+            <div id="optionsParent" class="row"></div>
+        </div>
+        <div class="p-1 bg-light fixed-bottom d-flex justify-content-end">
+        <button id="prevBtn" onclick="prevQuestion()" class="nextBtn m-2 fs-4">Previous</button>
+        <button id="nextBtn" onclick="nextQuestion()" class="nextBtn m-2 fs-4">Next</button>
+        <button id="submitBtn" onclick="submit()" class="nextBtn m-2 fs-4">Submit</button>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

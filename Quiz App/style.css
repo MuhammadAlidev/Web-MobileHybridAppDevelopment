@@ -1,0 +1,33 @@
+body{
+    background-color: #edfbba;
+}
+#top{
+    display: flex;
+    background-color: aquamarine;
+}
+#timer{
+    position: absolute; 
+    right: 30px;
+    font-weight: bold;
+}
+#prevBtn, #nextBtn, #submitBtn{
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.customBtn{
+    color: black;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.active{
+    background-color: rgb(0, 255, 106);
+}
+
+
+
+
+
